@@ -1,0 +1,4 @@
+Ticker,Rows_before_cleaning,Missing_dates,Missing_prices,Missing_volume,Nonpositive_prices,Negative_volume_rows,Invalid_OHLC_rows,Duplicate_ticker_date_rows
+AAPL,1254,0,0,0,0,0,0,0
+MSFT,1254,0,0,0,0,0,0,0
+NVDA,1254,0,0,0,0,0,0,0
