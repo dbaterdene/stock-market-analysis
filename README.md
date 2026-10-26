@@ -49,49 +49,6 @@ stock-market-analysis/
 └── README.md
 ```
 
-## How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd stock-market-analysis
-```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with the URL of your repository.
-
-### 2. Create and activate a virtual environment
-
-On macOS:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### 4. Run the analysis scripts
-
-Run the scripts in the order below:
-
-```bash
-python src/download_stock_data.py
-python src/clean_stock_data.py
-python src/analyze_returns.py
-python src/analyze_risk.py
-python src/calculate_moving_averages.py
-python src/analyze_fundamentals.py
-python src/compare_stocks.py
-python src/create_dashboard.py
-```
-
-The scripts generate analysis reports and visualizations in the `reports/` and `figures/` directories.
-
 ## Key Outputs
 
 - Historical stock price comparison
@@ -128,6 +85,6 @@ This project is for educational and analytical purposes. It is not investment ad
 
 ---
 
-**Author:** Your Name  
+**Author:** Duke Bat-Erdene  
 **Role Focus:** Data Analyst  
-**Project:** Stock Market Analysis Portfolio
+**Project:** Stock Market Analysis 
