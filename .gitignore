@@ -1,0 +1,27 @@
+
+# Python environment
+.venv/
+venv/
+env/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Local environment variables and secrets
+.env
+.env.*
+
+# Editor settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
